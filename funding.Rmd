@@ -18,7 +18,7 @@ LV funding: http://www.izm.gov.lv/lv/zinatne/valsts-finansejums-zinatnei
 
 UC Davis funding: https://research.ucdavis.edu/about-us/reports-publications/annual-research-funding/
 
-**LV data**
+##LV data
 
 ```{r}
 
@@ -30,7 +30,7 @@ total_EUR <- private + universities + state_funding + foreign
 message("This is total LV funding in 2016 (M eur):  ", total_EUR)
 ```
 
-**UC Davis data**
+##UC Davis data
 
 ```{r}
 UCDavis_USD <- 760
@@ -41,7 +41,7 @@ message("This is total funding for research at UC Davis in 2016 (M eur):  ", UCD
 
 ```
 
-**Number of students and funding**
+##Number of students and funding
 
 Data (students) UC Davis: https://www.ucdavis.edu/sites/default/files/upload/files/uc-davis-student-profile.pdf
 
@@ -75,7 +75,7 @@ LV_perc_to_GDP
 ```
 
 
-**Summary**
+##Summary
 
 ```{r}
 LV_percentage <- round(total_EUR/UCDavis_EUR*100, 2)
